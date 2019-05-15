@@ -1,8 +1,6 @@
 files:
     include: '**/*.scss'
 options:
-    formatter: html
-    output-file: 'sass-lint-global.html'
     merge-default-rules: false
 rules:
     zero-unit: 1
@@ -22,10 +20,8 @@ rules:
                 - 2
                 - 3
     trailing-semicolon: 1
-    variable-for-property:
-        - 1
-        - properties: ['color', 'background']
     no-color-keywords: 1
+    no-color-literals: 1
     attribute-quotes: 1
     declarations-before-nesting: 1
     no-invalid-hex: 1
@@ -34,3 +30,7 @@ rules:
     space-after-colon: 1
     space-before-brace: 1
     space-between-parens: 1
+    quotes:
+        - 1
+        - style: double
+    url-quotes: 1
