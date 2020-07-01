@@ -1,5 +1,6 @@
 {
   "rules": {
+    "indentation": "tab",
     "declaration-bang-space-before": "always",
     "declaration-property-value-blacklist": {
       "border": ["0", "none"],
